@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(234, 236, 237);
+  padding-top: 2rem;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.chart {
+  width: 60vw;
+}
+
+.pop {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+@media (max-width: 650px) {
+  .subContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

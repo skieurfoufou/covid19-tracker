@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0rem 0;
+  background-color: rgb(234, 236, 237);
+  min-height: 70vh;
+}
+.date {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: row;
+}
+/* .card {
+  margin-right: 1.5rem;
+  padding: 1rem;
+  border: 1px grey solid;
+  border-radius: 25px;
+  background-color: white;
+} */
+/* .infected {
+  border-bottom: 10px solid rgb(128, 0, 128, 0.5);
+  border-right: 7px solid rgb(128, 0, 128, 0.5);
+}
+
+.death {
+  border-bottom: 10px solid rgb(255, 0, 0, 0.5);
+  border-right: 7px solid rgb(255, 0, 0, 0.5);
+}
+
+.recovered {
+  border-bottom: 10px solid rgb(0, 0, 255, 0.5);
+  border-right: 7px solid rgb(0, 0, 255, 0.5);
+} */
+
+/* .card h4 {
+  text-decoration: underline;
+}
+
+.card h3 {
+  border: 3px black solid;
+  padding: 0.5rem;
+}
+
+.fontColorRed {
+  color: red;
+}
+
+.fontColorPurple {
+  color: purple;
+}
+.fontColorBlue {
+  color: blue;
+}
+
+.sizeFont {
+  font-size: 2rem;
+}
+.sizeFont2 {
+  font-size: 1.5rem;
+} */
+
+@media (max-width: 650px) {
+  .subContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}

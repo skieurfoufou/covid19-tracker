@@ -1,0 +1,13 @@
+.container {
+  background-color: rgb(234, 236, 237);
+  padding-bottom: 1.5rem;
+}
+.select {
+  font-size: 1.5rem;
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+.label {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
